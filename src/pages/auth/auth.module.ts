@@ -25,7 +25,6 @@ import { DexaPayModule } from '../contracts/dexa-pay/dexa-pay.module';
     MongooseModule.forFeature([{ name: Auth.name, schema: AuthSchema }]),
     ConfigModule,
     HttpModule,
-    HttpModule,
     EmailModule,
     DexaPayModule
   ],
